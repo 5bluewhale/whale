@@ -1,8 +1,7 @@
 \name{numeric_test}
 \alias{numeric_test}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
-%%  ~~value type ... ~~
+\title{value type test
 }
 \description{
 %%  ~~ na.omit(merge(data_str,data_str2,all=T)) ~~
