@@ -9,3 +9,4 @@ Description: This package has many functions which are used in <https://5bluewha
 License: use_mit_license()
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.0
