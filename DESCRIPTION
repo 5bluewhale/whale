@@ -1,11 +1,12 @@
 Package: whale
 Type: Package
-Title: bluewhale!
+Title: Bluewhale!
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <5bluewhale@kakao.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: hyeju
+Date: 2020-06-18
+Maintainer: hyeju <5bluewhale@kakao.com>
+Description: This package has many functions which are used in <https://5bluewhale.tistory.com/> blog statistics posts.
+All the explations and applications of functions can be found in the website given in the title.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
