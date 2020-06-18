@@ -33,4 +33,3 @@ numeric_test<-function(data){
   }
   na.omit(merge(data_str,data_str2,all=T))
 }
-
