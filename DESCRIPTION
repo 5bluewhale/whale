@@ -7,6 +7,6 @@ Date: 2020-06-18
 Maintainer: hyeju <5bluewhale@kakao.com>
 Description: This package has many functions which are used in <https://5bluewhale.tistory.com/> blog statistics posts.
 All the explations and applications of functions can be found in the website given in the title.
-License: What license is it under?
+License: use_mit_license()
 Encoding: UTF-8
 LazyData: true
