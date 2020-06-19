@@ -10,13 +10,12 @@
 #' @examples
 #' check.datatype()
 #' enter : data
-#' enter : colnumber
+#' enter : colname
 #'
 #' @export
 check.datatype <- function(){
   print("Please enter a data name")
   dataname<-scan( what = 'character',n=1)
-  assign(dataname,data)
   dataset<-get(dataname)
   colname<-colnames(data)
   for(j in 1:ncol(dataset)){
@@ -24,8 +23,8 @@ check.datatype <- function(){
       dataset[,colname[j]]<-as.numeric(dataset[,colname[j]])
     }
   }
-  print("Enter the number of variables")
-  colnumber<-scan()
+  print("Enter the name of variables")
+  colnumber<-scan(what = 'character')
   for(i in colnumber){
     if(typeof(dataset[,i])=="double"){
       type <- "numeric"
@@ -40,6 +39,4 @@ check.datatype <- function(){
     cat("The" ,valuename ," variable type is",type,"\n")
   }
 }
-
-
 
