@@ -23,7 +23,7 @@ check.datatype <- function(){
       dataset[,colname[j]]<-as.numeric(dataset[,colname[j]])
     }
   }
-  print("Enter the name of variables")
+  print("Enter the name(or colnumber) of variables")
   colnumber<-scan(what = 'character')
   for(i in colnumber){
     if(typeof(dataset[,i])=="double"){
